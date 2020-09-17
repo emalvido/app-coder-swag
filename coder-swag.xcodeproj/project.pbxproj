@@ -15,6 +15,7 @@
 		F1381B9725122D24007319B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1381B9525122D24007319B6 /* LaunchScreen.storyboard */; };
 		F15034F625139B1B00389E1E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15034F525139B1B00389E1E /* Category.swift */; };
 		F15034FA2513A1E600389E1E /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15034F92513A1E600389E1E /* Services.swift */; };
+		F15034FD2513DE3A00389E1E /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15034FC2513DE3A00389E1E /* ProductCell.swift */; };
 		F16426E82512464D00847585 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16426E72512464D00847585 /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		F1381B9825122D24007319B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F15034F525139B1B00389E1E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		F15034F92513A1E600389E1E /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		F15034FC2513DE3A00389E1E /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		F16426E72512464D00847585 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				F16426E72512464D00847585 /* CategoryCell.swift */,
+				F15034FC2513DE3A00389E1E /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				F15034F625139B1B00389E1E /* Category.swift in Sources */,
 				F1381B8B25122D21007319B6 /* AppDelegate.swift in Sources */,
 				F1381B8D25122D21007319B6 /* SceneDelegate.swift in Sources */,
+				F15034FD2513DE3A00389E1E /* ProductCell.swift in Sources */,
 				F16426E82512464D00847585 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
