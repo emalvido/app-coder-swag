@@ -17,11 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="692"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6jW-Ch-lAk">
-                                <rect key="frame" x="0.0" y="59" width="414" height="633"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6jW-Ch-lAk">
+                                <rect key="frame" x="0.0" y="56" width="414" height="636"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="150" id="e8n-Sm-h7g" customClass="CategoryCell" customModule="coder_swag" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="150" id="e8n-Sm-h7g" customClass="CategoryCell" customModule="coder_swag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="e8n-Sm-h7g" id="iUQ-bM-MtG">
@@ -29,7 +29,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="q9A-Jd-YB8">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+                                                    <rect key="frame" x="0.0" y="3" width="414" height="144"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="150" id="vpl-DE-NdE"/>
+                                                    </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHIRTS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3E-sU-sMZ">
                                                     <rect key="frame" x="20" y="63" width="374" height="24"/>
@@ -46,8 +49,8 @@
                                                 <constraint firstAttribute="trailing" secondItem="q9A-Jd-YB8" secondAttribute="trailing" id="WDy-mr-gqU"/>
                                                 <constraint firstItem="q9A-Jd-YB8" firstAttribute="leading" secondItem="iUQ-bM-MtG" secondAttribute="leading" id="bxe-QF-p17"/>
                                                 <constraint firstItem="H3E-sU-sMZ" firstAttribute="leading" secondItem="iUQ-bM-MtG" secondAttribute="leadingMargin" id="gaH-vP-igX"/>
-                                                <constraint firstItem="q9A-Jd-YB8" firstAttribute="top" secondItem="iUQ-bM-MtG" secondAttribute="top" id="jZ6-Dg-SmB"/>
-                                                <constraint firstAttribute="bottom" secondItem="q9A-Jd-YB8" secondAttribute="bottom" id="l4V-va-Xb8"/>
+                                                <constraint firstItem="q9A-Jd-YB8" firstAttribute="top" secondItem="iUQ-bM-MtG" secondAttribute="top" constant="3" id="jZ6-Dg-SmB"/>
+                                                <constraint firstAttribute="bottom" secondItem="q9A-Jd-YB8" secondAttribute="bottom" constant="3" id="l4V-va-Xb8"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="H3E-sU-sMZ" secondAttribute="trailing" id="lee-AY-VWN"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -74,7 +77,7 @@
                         <constraints>
                             <constraint firstItem="6jW-Ch-lAk" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5tA-5k-WVD"/>
                             <constraint firstItem="6jW-Ch-lAk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ICi-Zt-mGS"/>
-                            <constraint firstItem="6jW-Ch-lAk" firstAttribute="top" secondItem="RAP-zM-EIp" secondAttribute="bottom" constant="5" id="XfJ-HG-zrL"/>
+                            <constraint firstItem="6jW-Ch-lAk" firstAttribute="top" secondItem="RAP-zM-EIp" secondAttribute="bottom" constant="2" id="XfJ-HG-zrL"/>
                             <constraint firstItem="6jW-Ch-lAk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hKT-qw-s8d"/>
                             <constraint firstItem="RAP-zM-EIp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="urX-3u-FjF"/>
                             <constraint firstItem="RAP-zM-EIp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="xzm-0e-5BI"/>
