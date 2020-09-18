@@ -14,10 +14,10 @@ class ProductCell: UICollectionViewCell {
     @IBOutlet weak var productTitle: UILabel!
     @IBOutlet weak var productPrice: UILabel!
 
-//    func uptdateViews(product: Product) {
-//        productImg.image = UIImage(named: product.imageName)
-//        productTitle.text = product.title
-//        productPrice.text = product.price
-//    }
+    func uptdateViews(product: Product) {
+        productImg.image = UIImage(named: product.imageName)
+        productTitle.text = product.title
+        productPrice.text = product.price
+    }
 
 }

@@ -17,7 +17,6 @@ class CategoriesVC: UIViewController, UITableViewDataSource, UITableViewDelegate
         
         categoryTable.delegate = self
         categoryTable.dataSource = self
-        // Do any additional setup after loading the view.
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -33,6 +32,17 @@ class CategoriesVC: UIViewController, UITableViewDataSource, UITableViewDelegate
             return CategoryCell()
         }
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let category = DataService.instance.getCategories()[indexPath.row]
+        performSegue(withIdentifier: "ProductsVCsegue", sender: category)
+    }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let productsVC = segue.destination as? ProductsVC {
+            assert(sender as? Category != nil,"category not found")
+            productsVC.initProducts(category: sender as! Category)
+        }
+    }
+    
 }
-
