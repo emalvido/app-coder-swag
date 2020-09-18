@@ -87,7 +87,7 @@
                     <navigationItem key="navigationItem" title="CODERSWAG" id="6Da-N8-tKm"/>
                     <connections>
                         <outlet property="categoryTable" destination="6jW-Ch-lAk" id="Ze7-9U-RqU"/>
-                        <segue destination="cNi-eD-ag3" kind="show" id="Stm-ni-jlN"/>
+                        <segue destination="cNi-eD-ag3" kind="show" identifier="ProductsVCsegue" id="Stm-ni-jlN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -117,10 +117,10 @@
             </objects>
             <point key="canvasLocation" x="128.98550724637681" y="134.59821428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--ProductsVC-->
         <scene sceneID="ixN-xd-T07">
             <objects>
-                <viewController id="cNi-eD-ag3" sceneMemberID="viewController">
+                <viewController id="cNi-eD-ag3" customClass="ProductsVC" customModule="coder_swag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jLh-KQ-1Su">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="692"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -245,7 +245,7 @@
             <color red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="scrollViewTexturedBackgroundColor">
-            <color red="0.43529411764705878" green="0.44313725490196082" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -17,6 +17,7 @@
 		F15034FA2513A1E600389E1E /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15034F92513A1E600389E1E /* Services.swift */; };
 		F15035082514DFDC00389E1E /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15035072514DFDC00389E1E /* ProductCell.swift */; };
 		F150350B2514E0DF00389E1E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150350A2514E0DF00389E1E /* Product.swift */; };
+		F15035102514E31C00389E1E /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150350F2514E31C00389E1E /* ProductsVC.swift */; };
 		F16426E82512464D00847585 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16426E72512464D00847585 /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		F15034F92513A1E600389E1E /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		F15035072514DFDC00389E1E /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		F150350A2514E0DF00389E1E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F150350F2514E31C00389E1E /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 		F16426E72512464D00847585 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				F1381B8E25122D21007319B6 /* CategoriesVC.swift */,
+				F150350F2514E31C00389E1E /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				F1381B8D25122D21007319B6 /* SceneDelegate.swift in Sources */,
 				F15035082514DFDC00389E1E /* ProductCell.swift in Sources */,
 				F16426E82512464D00847585 /* CategoryCell.swift in Sources */,
+				F15035102514E31C00389E1E /* ProductsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
